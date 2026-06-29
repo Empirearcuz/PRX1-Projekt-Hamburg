@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     logoutBtn.addEventListener("click", async () => {
         await db.auth.signOut();                // Supabase Session löschen
-        window.location.href = "/index.html";   // zurück zur Login-Seite
+        window.location.href = "/PRX1-Projekt-Hamburg/index.html";   // zurück zur Login-Seite
     });
 
 });
