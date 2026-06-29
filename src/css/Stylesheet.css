@@ -1,0 +1,21 @@
+.kurzprofil {
+    min-width: 250px;
+    height: 100vh;
+}
+
+body {
+    padding-left: 80px;   /* ansonsten liegt Body über Menüleiste */
+    overflow-x: hidden;   /* damit keine horizontalas verschieben möglich ist*/
+}
+
+.scrollbar-posts {
+    max-height: 30vh;
+    overflow-y: auto;    
+    padding-right: 5px;  
+}
+
+.img-fluid {
+    min-width: 160px;
+height: auto;
+
+}
