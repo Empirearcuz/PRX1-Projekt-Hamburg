@@ -10,7 +10,7 @@ async function loadProfile() {
 
     if (userError || !user) {
         console.error("Kein User eingeloggt");
-        window.location.href = "/index.html";       //wenn kein User eingeloggt direkt auf Startseite (login) weitergeleitet
+        window.location.href = "/PRX1-Projekt-Hamburg/index.html";       //wenn kein User eingeloggt direkt auf Startseite (login) weitergeleitet
         return;
     }
 
