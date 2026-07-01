@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         currentUserName = profile.display_name;                 //currentUserName auf den in DB hinterlegeten Usernamen setzen
     }
 
-    if (currentUserName === "gast") {
-        document.getElementById("pinnwandInput").style.display = "none";
-        document.getElementById("pinnwandBtn").style.display = "none";
+     //Ein Gast kann nicht auf die Pinnwand schreiben
+    if (currentUserName === "Gast") {
+        document.getElementById("pinnwandEingabe").style.display = "none";
     }
     // Eintrag speichern
     btn.addEventListener("click", async () => {
