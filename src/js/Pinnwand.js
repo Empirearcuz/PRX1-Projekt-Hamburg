@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         currentUserName = profile.display_name;                 //currentUserName auf den in DB hinterlegeten Usernamen setzen
     }
 
+    if (currentUserName === "gast") {
+        document.getElementById("pinnwandInput").style.display = "none";
+        document.getElementById("pinnwandBtn").style.display = "none";
+    }
     // Eintrag speichern
     btn.addEventListener("click", async () => {
         const text = input.value.trim();        //speichert den Eintrag aus dem Input Feld und entfernt alle überschüssigen Leerzeichen
