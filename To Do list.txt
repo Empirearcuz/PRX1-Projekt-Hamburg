@@ -1,0 +1,9 @@
+Registrierung -> soweit fertig prüfen ob alles funktioniert wenn Supabase seine Probleme behoben hat
+anpassen Anmeldung Gast -> bessere SUpabase interne Möglichkeit
+Links Menüleiste einloggen deaktivieren? Oder Leiste komplett ausblenden? -> nicht nötig wird ja wenn nicht eingeloggt direkt auf Login Seite zurückgebracht
+
+Registrierung auf eindeutigen Benutzername anpassen?
+
+Evtl Alert Felder registrierung und anmelden durch was schöneres ersetzen
+
+Minesweeper!!
