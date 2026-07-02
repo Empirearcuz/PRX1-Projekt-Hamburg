@@ -147,12 +147,13 @@
                     <h3>Pinnwand</h3>
 
                     <div class="card p-3">
-
-                        <div class="mb-3">
-                            <textarea id="pinnwandInput" class="form-control" rows="3" placeholder="Schreib etwas auf die Pinnwand..."></textarea>
+                        <div id="pinnwandEingabe">
+                            <div class="mb-3">
+                                <textarea id="pinnwandInput" class="form-control" rows="3" placeholder="Schreib etwas auf die Pinnwand..."></textarea>
+                            </div>
+                            <button id="pinnwandBtn" class="btn btn-primary mb-3">Posten</button>
+                            <hr>
                         </div>
-                        <button id="pinnwandBtn" class="btn btn-primary mb-3">Posten</button>
-                        <hr>
                             <!-- In PinnwandListe stehen später die Einträge aus der Datenbank -->
                         <div id="pinnwandListe" class="scrollbar-posts d-flex flex-column gap-2"></div>
 
